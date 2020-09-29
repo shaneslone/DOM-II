@@ -78,5 +78,7 @@ navLinks.forEach(element => {
   element.addEventListener('click', event => {
     event.stopPropagation();
     element.style.backgroundColor = 'blue';
+    element.style.color = 'white';
+    element.preventDefault();
   });
 });
